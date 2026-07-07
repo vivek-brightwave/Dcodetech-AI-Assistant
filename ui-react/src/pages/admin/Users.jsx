@@ -1,7 +1,6 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import { Search, ChevronLeft, ChevronRight } from 'lucide-react';
-import Sidebar from '../../components/admin/Sidebar';
-import Navbar from '../../components/admin/Navbar';
+import AdminLayout from '../../components/admin/AdminLayout';
 import { useAuth } from '../../contexts/AuthContext';
 
 function formatDate(d) {
@@ -45,11 +44,7 @@ export default function Users() {
   useEffect(() => { fetchUsers(); }, [fetchUsers]);
 
   return (
-    <div className="admin-layout">
-      <Sidebar />
-      <div className="admin-main">
-        <Navbar title="User Management (Read Only)" />
-        <div className="admin-content">
+    <AdminLayout title="User Management (Read Only)">
           <div className="admin-table-wrapper">
             <div className="admin-table-toolbar">
               <div className="admin-search">
@@ -131,8 +126,6 @@ export default function Users() {
               </div>
             </div>
           </div>
-        </div>
-      </div>
-    </div>
+    </AdminLayout>
   );
 }

@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
-import Sidebar from '../../components/admin/Sidebar';
-import Navbar from '../../components/admin/Navbar';
+import AdminLayout from '../../components/admin/AdminLayout';
 import { useAuth } from '../../contexts/AuthContext';
 
 export default function EditUser() {
@@ -73,14 +72,10 @@ export default function EditUser() {
     }
   };
 
-  if (loading) return <div className="admin-layout"><Sidebar /><div className="admin-main"><Navbar title="Edit User" /><div className="admin-content"><div className="page-loader"><div className="spinner" /></div></div></div></div>;
+  if (loading) return <AdminLayout title="Edit User"><div className="page-loader"><div className="spinner" /></div></AdminLayout>;
 
   return (
-    <div className="admin-layout">
-      <Sidebar />
-      <div className="admin-main">
-        <Navbar title="Edit User" />
-        <div className="admin-content">
+    <AdminLayout title="Edit User">
           <div className="form-card">
             {errors.general && <div className="login-error" style={{ marginBottom: '1rem' }}>{errors.general}</div>}
             <form onSubmit={handleSubmit}>
@@ -130,8 +125,6 @@ export default function EditUser() {
               </div>
             </form>
           </div>
-        </div>
-      </div>
-    </div>
+    </AdminLayout>
   );
 }

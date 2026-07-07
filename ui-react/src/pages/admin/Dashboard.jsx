@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Users, UserCheck, Wifi, CalendarClock, ShieldAlert, Activity } from 'lucide-react';
-import Sidebar from '../../components/admin/Sidebar';
-import Navbar from '../../components/admin/Navbar';
+import AdminLayout from '../../components/admin/AdminLayout';
 import StatsCard from '../../components/admin/StatsCard';
 import { useAuth } from '../../contexts/AuthContext';
 
@@ -30,24 +29,18 @@ export default function Dashboard() {
     : [];
 
   return (
-    <div className="admin-layout">
-      <Sidebar />
-      <div className="admin-main">
-        <Navbar title="Dashboard" />
-        <div className="admin-content">
-          {loading ? (
-            <div className="page-loader"><div className="spinner" /></div>
-          ) : (
-            <>
-              <div className="stats-grid">
-                {cards.map((c, i) => (
-                  <StatsCard key={c.label} {...c} delay={i * 0.08} />
-                ))}
-              </div>
-            </>
-          )}
-        </div>
-      </div>
-    </div>
+    <AdminLayout title="Dashboard">
+      {loading ? (
+        <div className="page-loader"><div className="spinner" /></div>
+      ) : (
+        <>
+          <div className="stats-grid">
+            {cards.map((c, i) => (
+              <StatsCard key={c.label} {...c} delay={i * 0.08} />
+            ))}
+          </div>
+        </>
+      )}
+    </AdminLayout>
   );
 }

@@ -1,7 +1,6 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import { Search, RefreshCw, Download, ChevronLeft, ChevronRight } from 'lucide-react';
-import Sidebar from '../../components/admin/Sidebar';
-import Navbar from '../../components/admin/Navbar';
+import AdminLayout from '../../components/admin/AdminLayout';
 import { useAuth } from '../../contexts/AuthContext';
 
 function formatDate(d) {
@@ -86,11 +85,7 @@ export default function LoginActivity() {
   };
 
   return (
-    <div className="admin-layout">
-      <Sidebar />
-      <div className="admin-main">
-        <Navbar title="Login Activity" />
-        <div className="admin-content">
+    <AdminLayout title="Login Activity">
           <div className="admin-table-wrapper">
             <div className="admin-table-toolbar">
               <div className="admin-search">
@@ -190,8 +185,6 @@ export default function LoginActivity() {
               </div>
             </div>
           </div>
-        </div>
-      </div>
-    </div>
+    </AdminLayout>
   );
 }

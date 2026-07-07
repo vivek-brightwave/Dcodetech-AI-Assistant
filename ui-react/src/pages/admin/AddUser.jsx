@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import Sidebar from '../../components/admin/Sidebar';
-import Navbar from '../../components/admin/Navbar';
+import AdminLayout from '../../components/admin/AdminLayout';
 import { useAuth } from '../../contexts/AuthContext';
 
 export default function AddUser() {
@@ -63,11 +62,7 @@ export default function AddUser() {
   };
 
   return (
-    <div className="admin-layout">
-      <Sidebar />
-      <div className="admin-main">
-        <Navbar title="Add User" />
-        <div className="admin-content">
+    <AdminLayout title="Add User">
           <div className="form-card">
             {errors.general && <div className="login-error" style={{ marginBottom: '1rem' }}>{errors.general}</div>}
             <form onSubmit={handleSubmit}>
@@ -130,8 +125,6 @@ export default function AddUser() {
               </div>
             </form>
           </div>
-        </div>
-      </div>
-    </div>
+    </AdminLayout>
   );
 }

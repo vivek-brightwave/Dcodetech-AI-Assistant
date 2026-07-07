@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Lock, Eye, EyeOff } from 'lucide-react';
-import Sidebar from '../../components/admin/Sidebar';
-import Navbar from '../../components/admin/Navbar';
+import AdminLayout from '../../components/admin/AdminLayout';
 import { useAuth } from '../../contexts/AuthContext';
 
 function formatDate(d) {
@@ -95,15 +94,11 @@ export default function Profile() {
   };
 
   if (loading) return (
-    <div className="admin-layout"><Sidebar /><div className="admin-main"><Navbar title="Profile" /><div className="admin-content"><div className="page-loader"><div className="spinner" /></div></div></div></div>
+    <AdminLayout title="Profile"><div className="page-loader"><div className="spinner" /></div></AdminLayout>
   );
 
   return (
-    <div className="admin-layout">
-      <Sidebar />
-      <div className="admin-main">
-        <Navbar title="Profile" />
-        <div className="admin-content">
+    <AdminLayout title="Profile">
           {/* Profile Info Card */}
           <div className="form-card" style={{ marginBottom: '2rem' }}>
             <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1.5rem' }}>
@@ -263,8 +258,6 @@ export default function Profile() {
               </table>
             </div>
           </div>
-        </div>
-      </div>
-    </div>
+    </AdminLayout>
   );
 }
