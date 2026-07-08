@@ -1,0 +1,190 @@
+Dcodetech Website Overview Report
+Company Overview
+
+Dcodetech is an ISO 9001:2015 certified IT and Cyber Security training organization focused on professional education, career development, corporate training, and placement support. The organization specializes in Cyber Security, Digital Forensics, Data Science, Cloud Computing, DevOps, and Business Analytics programs.
+
+Contact Information
+Website: Dcodetech
+Email: info@dcodetech.in
+Phone: +91-86559-66336
+Head Office: Thane West, Maharashtra, India
+Key Business Statistics
+Metric	Value
+Students Trained	10,000+
+Industry Partners	150+
+Placement Rate	90%–95%
+Colleges Connected	350+
+Companies Associated	600+
+Expert Trainers	150+
+Students Placed	5,000+
+Corporate Tie-Ups	550+
+College MoUs	250+
+MNC Placements	1,000+
+
+Source: Website homepage statistics.
+
+Core Training Domains
+Cyber Security
+Ethical Hacking
+Security Operations Center (SOC)
+SIEM Technologies
+Incident Response
+Digital Forensics
+Cyber Laws
+Threat Analysis
+Data Science & AI
+Python
+Machine Learning
+Deep Learning
+NLP
+Generative AI
+Data Analytics
+Business Intelligence
+Cloud & DevOps
+AWS
+Azure
+Linux
+Docker
+Kubernetes
+CI/CD
+Monitoring Tools
+Business Analytics
+Excel
+SQL
+Tableau
+Power BI
+Forecasting
+KPI Analysis
+
+Major Courses Offered
+One Year Diploma in Cyber Security & Digital Forensics
+Duration: 1 Year
+Focus: SOC, SIEM, Digital Forensics, Incident Response
+6-Month Cyber Security Certification
+Ethical Hacking
+SOC Operations
+EDR
+SIEM
+Data Science (6 Months)
+Python
+Statistics
+Machine Learning
+GenAI Basics
+Data Science (1 Year)
+Advanced Machine Learning
+Deep Learning
+NLP
+Generative AI
+Business Analytics
+Power BI
+Tableau
+SQL
+Excel
+Data Analytics
+Python
+Pandas
+EDA
+Power BI
+Cloud Computing & DevOps Engineering
+AWS
+Azure
+Docker
+Kubernetes
+CI/CD
+
+Strategic Partnerships & Associations
+
+The website highlights collaborations and associations with:
+
+EC-Council
+Maharashtra Police
+Ministry of Electronics and Information Technology
+NASSCOM
+National Skill Development Corporation
+
+Placement & Career Support
+
+Dcodetech provides:
+
+Resume Building
+Mock Interviews
+Aptitude Preparation
+Internship Opportunities
+Hiring Drives
+Placement Assistance
+Corporate Referrals
+
+Placement Ecosystem Statistics:
+
+5,000+ Students Placed
+300+ Hiring Partners
+95% Placement Rate
+
+Cyber Expert Deployment Program
+
+A unique initiative highlighted on the website:
+
+Program Highlights
+Cyber Cell Exposure
+Digital Forensics Training
+Cybercrime Investigation
+Evidence Handling
+Incident Response
+Outcomes
+75+ Cyber Experts Trained & Placed
+Deployments Across Cyber Cells
+Investigation-Led Learning
+
+Enterprise Training Services
+
+Services offered to:
+
+Colleges
+Universities
+Corporate Organizations
+Government Institutions
+
+Training Categories:
+
+Cyber Security
+Digital Forensics
+Data Science
+Data Analytics
+Business Analytics
+Cloud Computing
+DevOps Engineering
+
+Website Strengths
+Strong Areas
+Clear Cyber Security specialization.
+Strong placement-focused messaging.
+Government and law-enforcement association visibility.
+Comprehensive course portfolio.
+Professional homepage design.
+Multiple success metrics displayed.
+Industry-aligned curriculum presentation.
+Potential Improvements
+Add detailed faculty profiles.
+Publish real student case studies with videos.
+Add blog/articles for SEO.
+Add downloadable course brochures.
+Display verified placement company logos.
+Publish alumni success stories.
+Add detailed curriculum PDFs for each course.
+Add live webinar registration section.
+Improve schema markup for SEO.
+Add chatbot for lead generation.
+SEO Assessment (Initial)
+Positive
+Strong keyword focus on:
+Cyber Security Training
+Ethical Hacking
+Digital Forensics
+Data Science
+DevOps
+Placement Support
+Business Positioning
+
+Dcodetech positions itself as:
+
+A career-focused Cyber Security and IT training institute that combines practical learning, government-industry collaborations, placement assistance, and real-world project exposure to prepare students for employment in technology and cybersecurity sectors.
